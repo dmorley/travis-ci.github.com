@@ -79,7 +79,7 @@ Please take into account that Travis CI is an open source service and we rely on
 
 You can also define exclusions to the build matrix:
 
-    matrix: { exclusion: [{ rvm: 1.8.7, env:RG=1.3.6 }]}
+    matrix: { exclude: [{ rvm: 1.8.7, env: RG=1.3.6 }]}
 
 Only exact matches will be excluded.
 
